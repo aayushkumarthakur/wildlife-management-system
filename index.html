@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <title>WMS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="https://wildlifems.netlify.app/assets/images/logo/favicon.png"
+  />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+  <body ng-app="myApp">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark default-color">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#/!">
+        <img
+          src="https://wildlifems.netlify.app/assets/images/logo/favicon.png"
+          height="30"
+          class="d-inline-block align-top"
+          alt="wms logo"
+        />&nbsp;WMS</a
+      >
+
+      <!-- Collapse button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#basicExampleNav"
+        aria-controls="basicExampleNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="basicExampleNav">
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#!tourism">Tourism</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#!stats">Statistics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#!parks">National Parks</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Species(Existence)</a
+            >
+            <div
+              class="dropdown-menu dropdown-primary"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <a class="dropdown-item" href="#!species/normal"
+                >Normal Species</a
+              >
+              <a class="dropdown-item" href="#!species/endangered"
+                >Endangered Species</a
+              >
+              <a class="dropdown-item" href="#!species/vulnerable"
+                >Vulnerable Species</a
+              >
+              <a class="dropdown-item" href="#!species/rare">Rare Species</a>
+              <a class="dropdown-item" href="#!species/endemic"
+                >Endemic Species</a
+              >
+              <a class="dropdown-item" href="#!species/extinct"
+                >Extinct Species</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Fun Zone</a
+            >
+            <div
+              class="dropdown-menu dropdown-primary"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <a class="dropdown-item" href="#!fun/randomcutedogs"
+                >Random Cute Doggo</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#!contact">Contact</a>
+          </li>
+        </ul>
+        <!-- Links -->
+      </div>
+      <!-- Collapsible content -->
+    </nav>
+    <!--/.Navbar-->
+
+    <div ng-view></div>
+    <script src="App.js"></script>
+  </body>
+</html>
