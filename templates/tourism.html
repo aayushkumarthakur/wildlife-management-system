@@ -1,0 +1,312 @@
+<!-- Jumbotron -->
+
+<div
+  class="card card-image"
+  style="
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.nationalgeographic.com/content/dam/news/2015/10/21/touristsandanimals/1touristsandanimals.ngsversion.1458225016974.adapt.1900.1.jpg);
+  "
+>
+  <div class="text-white text-center rgba-stylish-strong py-5 px-4">
+    <div class="py-5">
+      <!-- Content -->
+
+      <h2 class="card-title h2 my-4 py-2">Wildlife Tourism</h2>
+      <p class="mb-4 pb-2 px-md-5 mx-md-5">
+        They feel pain, hear their cry, if you see animal abuse, don't just walk
+        by.
+      </p>
+    </div>
+  </div>
+</div>
+<br /><br />
+<!-- Jumbotron -->
+<div class="container">
+  <!--Carousel Wrapper-->
+  <div
+    id="carousel-example-1z"
+    class="carousel slide carousel-fade"
+    data-ride="carousel"
+  >
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li
+        data-target="#carousel-example-1z"
+        data-slide-to="0"
+        class="active"
+      ></li>
+      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <!--First slide-->
+      <div class="carousel-item active">
+        <img
+          class="d-block w-100"
+          src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2016/08/jim-corbett-tiger-national-park.jpg"
+          alt="Wildlife Tourism"
+        />
+      </div>
+      <!--/First slide-->
+      <!--Second slide-->
+      <div class="carousel-item">
+        <img
+          class="d-block w-100"
+          src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2016/08/KazirangaNationalPark_PTI.jpg"
+          alt="Wildlife Tourism"
+        />
+      </div>
+      <!--/Second slide-->
+      <!--Third slide-->
+      <div class="carousel-item">
+        <img
+          class="d-block w-100"
+          src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2019/04/NPHP-Great-Himalayan-National-Parkepb0310.jpg"
+          alt="Wildlife Tourism"
+        />
+      </div>
+      <!--/Third slide-->
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+
+    <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+  <br />
+
+  <!-- The dots/circles -->
+  <div style="text-align: center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <br /><br />
+
+  <form
+    onsubmit="return validate()"
+    class="text-center border border-light p-5"
+  >
+    <p class="h4 mb-4">Book your tourism package</p>
+
+    <input type="text" id="name" class="form-control mb-4" placeholder="Name" />
+
+    <input
+      type="email"
+      id="email"
+      class="form-control mb-4"
+      placeholder="E-Mail"
+    />
+    <label>No. of People</label>
+    <select class="browser-default custom-select mb-4">
+      <option value="0" disabled>Choose option</option>
+      <option value="1" selected>1 Adult</option>
+      <option value="2">2 Adults</option>
+      <option value="3">3 Adults</option>
+      <option value="4">4 Adults</option>
+    </select>
+    <label>Destination</label>
+    <select class="browser-default custom-select mb-4">
+      <option value="0" disabled>Choose option</option>
+      <option value="1" selected>Ranthambore</option>
+      <option value="2">Kaziranga</option>
+      <option value="3">Sundarban</option>
+      <option value="4">Gir Forest</option>
+    </select>
+    <label>Tourism Plans</label>
+    <select class="browser-default custom-select mb-4">
+      <option value="" disabled>Choose option</option>
+      <option value="1" selected>Basic Plan - ₹1,500 per person</option>
+      <option value="2">Premium Plan - ₹2,500 per person</option>
+    </select>
+    <label>Date of travel</label>
+    <input
+      type="date"
+      id="date"
+      class="form-control mb-4"
+      placeholder="Date of travel"
+    />
+
+    <!-- Sign in button -->
+    <button class="btn btn-info btn-block my-4" type="submit">Book</button>
+  </form>
+</div>
+<br /><br />
+<!-- Default form login -->
+
+<!-- Default form login -->
+<br /><br />
+<!-- Footer -->
+<footer class="page-footer font-small blue-grey lighten-5">
+  <div style="background-color: #21d156">
+    <div class="container">
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Be an everyday hero, stop animal abuse.</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row-->
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+    <!-- Grid row -->
+    <div class="row mt-3 dark-grey-text">
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">
+          Wildlife Management System
+        </h6>
+        <hr
+          class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 60px"
+        />
+        <p>
+          Wildlife Management System made with Angular JS, JQuery, Bootstrap.
+        </p>
+      </div>
+
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+        <hr
+          class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 60px"
+        />
+        <p>
+          <a class="dark-grey-text" href="#!">Tourism</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">Statistics</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">National Parks</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr
+          class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 60px"
+        />
+        <p><i class="fas fa-home mr-3"></i> India</p>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center text-black-50 py-3">
+    © 2020 Copyright:
+    <a class="dark-grey-text" href="#"> WMS</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<script>
+  function validate() {
+    let msg = "";
+    let err = 0;
+
+    let name = document.querySelector("#name").value;
+    let email = document.querySelector("#email").value;
+    // let contact = document.querySelector("#contact").value;
+    // let state = document.querySelector("#state").value;
+    // let city = document.querySelector("#city").value;
+    // let area = document.querySelector("#area").value;
+    let d1 = new Date(document.querySelector("#date").value);
+    let d2 = new Date();
+    var e = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+
+    if (name.trim() == "" || name.trim() == null) {
+      msg += "Name cannot be empty\n";
+      ++err;
+    }
+    // if (state.trim() == "" || state.trim() == null) {
+    //   msg += "State cannot be empty\n";
+    //   ++err;
+    // }
+    // if (city.trim() == "" || city.trim() == null) {
+    //   msg += "City cannot be empty\n";
+    //   ++err;
+    // }
+    // if (area.trim() == "" || area.trim() == null) {
+    //   msg += "Area cannot be empty\n";
+    //   ++err;
+    // }
+    if (!e.test(email)) {
+      msg += "Email is Invalid\n";
+      ++err;
+    }
+    if (email.replace(/\s+/g, "") == "" || email.replace(/\s+/g, "") == null) {
+      msg += "Email cannot be empty\n";
+      ++err;
+    }
+
+    // if (Number.isNaN(contact) == false) {
+    //   if (
+    //     contact.replace(/\s+/g, "") != "" ||
+    //     contact.replace(/\s+/g, "") != null
+    //   ) {
+    //     if (contact.length != 10) {
+    //       msg += "Invalid Contact No.\n";
+    //       ++err;
+    //     }
+    //   } else {
+    //     msg += "Contact no. cannot be empty\n";
+    //     ++err;
+    //   }
+    // } else {
+    //   msg += "Invalid Contact No.\n";
+    //   ++err;
+    // }
+
+    // if (
+    //   postal.replace(/\s+/g, "") != "" ||
+    //   postal.replace(/\s+/g, "") != null
+    // ) {
+    //   if (postal.replace(/\s+/g, "").length != 6) {
+    //     msg += "Invalid Postal code\n";
+    //     ++err;
+    //   }
+    // } else {
+    //   msg += "Postal code cannot be empty\n";
+    //   ++err;
+    // }
+
+    if (d1 != "Invalid Date") {
+      if (d1.getTime() <= d2.getTime()) {
+        msg += "Date should be in future\n";
+        ++err;
+      }
+    } else {
+      msg += "Invalid Date\n";
+      ++err;
+    }
+
+    if (err != 0) {
+      alert(msg);
+      return false;
+    } else {
+      alert("Thank you for booking! We'll contact you soon.");
+      return true;
+    }
+  }
+</script>

@@ -1,0 +1,216 @@
+<script>
+  //pie
+  var ctxP = document.getElementById("pieChart").getContext("2d");
+  var myPieChart = new Chart(ctxP, {
+    type: "pie",
+    data: {
+      labels: [
+        "Exploitation",
+        "Habitat Degradation",
+        "Habitat Loss",
+        "Climate Change",
+        "Invasive Species",
+        "Pollution",
+        "Disease",
+      ],
+      datasets: [
+        {
+          data: [37, 31.4, 13.4, 7.1, 5.1, 4, 2],
+          backgroundColor: [
+            "#F7464A",
+            "#46BFBD",
+            "#FDB45C",
+            "#949FB1",
+            "#4D5360",
+            "#9c27b0",
+            "#00c853",
+          ],
+          hoverBackgroundColor: [
+            "#FF5A5E",
+            "#5AD3D1",
+            "#FFC870",
+            "#A8B3C5",
+            "#616774",
+            "#ab47bc",
+            "#00e676",
+          ],
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+    },
+  });
+</script>
+<div
+  class="card card-image"
+  style="
+    height: 100%;
+    width: 100%;
+    background-image: url(https://img.traveltriangle.com/blog/wp-content/uploads/2018/09/Phibsoo-Wildlife-Sanctuary-cover.jpg);
+  "
+>
+  <div class="text-white text-center rgba-stylish-strong py-5 px-4">
+    <div class="py-5">
+      <!-- Content -->
+
+      <h2 class="card-title h2 my-4 py-2">Statistics</h2>
+      <p class="mb-4 pb-2 px-md-5 mx-md-5">
+        Don't breed or buy, while shelter animals die.
+      </p>
+    </div>
+  </div>
+</div>
+<br />
+<div class="container">
+  <center>
+    <p class="h2">Threats to wildlife and population decline from 1970-2010</p>
+  </center>
+  <br />
+  <canvas id="pieChart"></canvas>
+  <br /><br />
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title" style="color: orangered">60%</h2>
+      <p class="card-text h6">
+        Populations of mammals, birds, fish, reptiles, and amphibians have, on
+        average, declined by 60% between 1970 and 2014, the most recent year
+        with available data.
+      </p>
+    </div>
+  </div>
+  <br />
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title" style="color: orangered">50%</h2>
+      <p class="card-text h6">
+        The Earth is estimated to have lost about half of its shallow water
+        corals in the past 30 years.
+      </p>
+    </div>
+  </div>
+  <br />
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title" style="color: orangered">20%</h2>
+      <p class="card-text h6">
+        A fifth of the Amazon has disappeared in just 50 years.
+      </p>
+    </div>
+  </div>
+  <br />
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title" style="color: orangered">$125 trillion</h2>
+      <p class="card-text h6">
+        Globally, nature provides services worth around $125 trillion a year,
+        while also helping ensure the supply of fresh air, clean water, food,
+        energy, medicines, and much more.
+      </p>
+    </div>
+  </div>
+  <br /><br /><br /><br />
+  <div class="streak grey lighten-4">
+    <div class="flex-center">
+      <ul class="mb-0 list-unstyled">
+        <li>
+          <h3 class="h3-responsive">
+            <i class="fas fa-quote-left" aria-hidden="true"></i> Take out the
+            blindness, show a little kindness, evolve up the ladder, get
+            conscious- animals matter.
+            <i class="fas fa-quote-right" aria-hidden="true"></i>
+          </h3>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- Jumbotron -->
+
+<br /><br /><br /><br />
+<!-- Footer -->
+<footer class="page-footer font-small blue-grey lighten-5">
+  <div style="background-color: #21d156">
+    <div class="container">
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Be an everyday hero, stop animal abuse.</h6>
+        </div>
+        <!-- Grid column -->
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row-->
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+    <!-- Grid row -->
+    <div class="row mt-3 dark-grey-text">
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">
+          Wildlife Management System
+        </h6>
+        <hr
+          class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 60px"
+        />
+        <p>
+          Wildlife Management System made with Angular JS, JQuery, Bootstrap.
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+        <hr
+          class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 60px"
+        />
+        <p>
+          <a class="dark-grey-text" href="#!">Tourism</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">Statistics</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">National Parks</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr
+          class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 60px"
+        />
+        <p><i class="fas fa-home mr-3"></i> India</p>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center text-black-50 py-3">
+    © 2020 Copyright:
+    <a class="dark-grey-text" href="#"> WMS</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+<!-- Jumbotron -->
